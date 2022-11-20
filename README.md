@@ -8,9 +8,10 @@ Adds IntelliSense features for AnkaBot API to VS Code. This is a plugin extensio
 
 ## Features
 
-- Intellisense
+![](https://github.com/linkpad/vscode-ankabot-api/raw/master/image/intellisense.gif)
 
+![](https://github.com/linkpad/vscode-ankabot-api/raw/master/image/intellisense2.gif)
 
-
+![](https://github.com/linkpad/vscode-ankabot-api/raw/master/image/intellisense3.gif)
 
 **Enjoy!**
