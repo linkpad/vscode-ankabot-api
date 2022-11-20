@@ -1,0 +1,38 @@
+---@meta
+
+---@class UMount
+---@field id integer
+---@field model number
+---@field ancestor number[]
+---@field behaviors number[]
+---@field name string
+---@field sex boolean
+---@field ownerId number
+---@field experience number
+---@field experienceForLevel number
+---@field experienceForNextLevel number
+---@field level number
+---@field isRideable boolean
+---@field maxPods number
+---@field isWild boolean
+---@field stamina number
+---@field staminaMax number
+---@field maturity number
+---@field maturityForAdult number
+---@field energy number
+---@field energyMax number
+---@field serenity number
+---@field aggressivityMax number
+---@field serenityMax number
+---@field love number
+---@field loveMax number
+---@field fecondationTime number
+---@field isFecondationReady boolean
+---@field boostLimiter number
+---@field boostMax number
+---@field reproductionCount number
+---@field reproductionCountMax number
+---@field harnessGID number
+---@field useHarnessColors boolean
+---@field effectList any[]
+UMonster = {}

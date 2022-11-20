@@ -1,0 +1,41 @@
+---@meta
+
+---@class UEntityStats
+---@field shieldPoints integer # Points de bouclier actuels
+---@field actionPoints integer # Points d'action maximums
+---@field movementPoints integer # Points de mouvement maximums
+---@field summoner number # Identifiant de l'invocateur
+---@field summoned boolean # Invocation
+---@field neutralElementResistPercent integer # Pourcentage de résistance neutre
+---@field earthElementResistPercent integer # Pourcentage de résistance terre
+---@field waterElementResistPercent integer # Pourcentage de résistance eau
+---@field airElementResistPercent integer # Pourcentage de résistance air
+---@field fireElementResistPercent integer # Pourcentage de résistance feu
+---@field neutralElementReduction integer # Réduction de l'élément neutre
+---@field earthElementReduction integer # Réduction de l'élément terre
+---@field waterElementReduction integer # Réduction de l'élément eau
+---@field airElementReduction integer # Réduction de l'élément air
+---@field fireElementReduction integer # Réduction de l'élément feu
+---@field pvpNeutralElementResistPercent integer # Pourcentage de résistance neutre en PvP
+---@field pvpEarthElementResistPercent integer # Pourcentage de résistance terre en PvP
+---@field pvpWaterElementResistPercent integer # Pourcentage de résistance eau en PvP
+---@field pvpAirElementResistPercent integer # Pourcentage de résistance air en PvP
+---@field pvpFireElementResistPercent integer # Pourcentage de résistance feu en PvP
+---@field pvpNeutralElementReduction integer # Réduction de l'élément neutre en PvP
+---@field pvpEarthElementReduction integer # Réduction de l'élément terre en PvP
+---@field pvpWaterElementReduction integer # Réduction de l'élément eau en PvP
+---@field pvpAirElementReduction integer # Réduction de l'élément air en PvP
+---@field pvpFireElementReduction integer # Réduction de l'élément feu en PvP
+---@field criticalDamageFixedResist integer # Résistance aux critiques
+---@field pushDamageFixedResist integer # Résistance au tacle
+---@field dodgePALostProbability integer # Probabilité d'esquive de retrait de PA
+---@field dodgePMLostProbability integer # Probabilité d'esquive de retrait de PM
+---@field tackleBlock integer # Nombre de tacle pour bloquer l'ennemi
+---@field tackleEvade integer # Nombre de tacle pour s'enfuir de l'ennemi
+---@field fixedDamageReflection integer # Renvoi de dommage
+---@field invisibilityState integer # Entité invisible (0 - visible  / 1 - invisible / 2 - invisible / 3 - visible )
+---@field meleeDamageReceivedPercent integer # Pourcentage de dommage reçu au CaC
+---@field rangedDamageReceivedPercent integer # Pourcentage de dommage reçu à distance
+---@field weaponDamageReceivedPercent integer # Pourcentage de dommage reçu avec une arme
+---@field spellDamageReceivedPercent integer # PPourcentage de dommage reçu avec un sort
+UEntityStats = {}
